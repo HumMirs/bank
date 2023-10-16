@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none !important;
+}
+
+body {
+  background-color: #fd0;
+}
+
+.main-container {
+  width: 45%;
+  margin: 100px auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#get_credit,
+#exchange {
+  border-radius: 20px;
+  padding: 30px 50px;
+  background-color: #fd0;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.credit-container {
+  width: 40%;
+  margin: 100px auto;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: black;
+  font-size: 22px;
+  color: #fd0;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 20px;
+}
+
+#home {
+  border-radius: 20px;
+  padding: 20px 40px;
+  background-color: #fd0;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 44%;
+}
+
+.exchange-container {
+  width: 40%;
+  margin: 100px auto;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: black;
+  font-size: 22px;
+  color: #fd0;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.header-container {
+  width: 100%;
+  background-color: black;
+  color: #fd0;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
